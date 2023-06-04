@@ -20,6 +20,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -55,13 +58,18 @@ p {
 .btn-yorgurt {
   border-radius: 4px;
   border: 1px solid var(--branding-color);
-  color: var(--branding-color);
+  background: var(--branding-color);
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 .project-description {
   padding: 60px 60px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 20 120px;
 }
 .logo {
   max-width: 150px;
@@ -106,6 +114,31 @@ nav li.active a {
 }
 .content {
   margin: 30px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+footer .contact-box p {
+  margin: 0;
 }
 @media (max-width: 960px) {
   h1 {
