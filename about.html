@@ -26,9 +26,28 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/style/port.css" />
+    <meta
+      name="description"
+      content="Rose Were is a front-end developer based in Nairobi, Kenya skilled in HTML, CSS, Javascript, responsive web design, web API, Debugging"
+    />
     <title>About Rose</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.jpg"
+          class="logo d-none d-md-block"
+          alt="logo image"
+        />
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active"><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,7 +60,9 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">View all project</a>
+            <a href="/work.html" title="My Work" class="btn btn-branding"
+              >View all projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -53,5 +74,48 @@
         </div>
       </div>
     </div>
+    <footer class="m-5">
+      <div
+        class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
+      >
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding me-2 mt-2"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:rose.nanjala62@gmail.com" class="email-link">
+          rose.nanjala62@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mt-4">
+        <a href="https://github.com/rosewere"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://instagram.com/rosewere" target="_blank"
+          ><i class="fa-brands fa-instagram" target="_blank"></i
+        ></a>
+        <a href="https://twitter.com/rosewere" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <div class="text-center text-muted mt-3">
+        <p>
+          <a
+            href="https://github.com/rosewere/project-portfolio"
+            class="github-link text-decoration-none"
+            target="_blank"
+          >
+            Open-source
+          </a>
+          project by Rose Were
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
