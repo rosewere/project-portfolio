@@ -29,6 +29,10 @@ p {
   font-weight: normal;
   line-height: 30px;
 }
+.rose {
+  width: 320px;
+  height: 500px;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
